@@ -1,0 +1,92 @@
+/* @font-face {
+    font-family: ultra;
+    src: url(path/to/font/file/ultra) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
+.warp__placeholder{
+    position: absolute;
+    color: transparent;
+    font-size: .1px;
+}
+
+.warp {
+    display: block;
+    position: relative;
+    width: 620px;
+    height: 450px;
+    font: normal 50px/1 ultra;    
+    transform: rotateZ(354deg) translateX(25px);
+}
+
+[class*='warp__'] {
+    display: block;
+    position: absolute;
+}
+
+.warp__0 {
+    transform-origin: 50% 43px;
+    transform: translate(93.7696px,97.9437px) rotate(-0.798982rad);
+}
+
+.warp__1 {
+    transform-origin: 50% 43px;
+    transform: translate(125.0719px,72.5058px) rotate(-0.614565rad);
+}
+
+.warp__2 {
+    transform-origin: 50% 43px;
+    transform: translate(157.2414px,54.700599999999994px) rotate(-0.452282rad);
+}
+
+.warp__3 {
+    transform-origin: 50% 43px;
+    transform: translate(188.486px,42.0519px) rotate(-0.296406rad);
+}
+
+.warp__4 {
+    transform-origin: 50% 43px;
+    transform: translate(223.5263px,34.47410000000001px) rotate(-0.149614rad);
+}
+
+.warp__5 {
+    transform-origin: 50% 43px;
+    transform: translate(255.9898px,31.7213px) rotate(-0.018942rad);
+}
+
+.warp__6 {
+    transform-origin: 50% 43px;
+    transform: translate(291.0629px,33.726200000000006px) rotate(0.14198rad);
+}
+
+.warp__7 {
+    transform-origin: 50% 43px;
+    transform: translate(322.9865px,41.4778px) rotate(0.296955rad);
+}
+
+.warp__8 {
+    transform-origin: 50% 43px;
+    transform: translate(358.3191px,52.8848px) rotate(0.419676rad);
+}
+
+.warp__9 {
+    transform-origin: 50% 43px;
+    transform: translate(383.5115px,64.4959px) rotate(0.507315rad);
+}
+
+.warp__10 {
+    transform-origin: 50% 43px;
+    transform: translate(401.8229px,81.8841px) rotate(0.608815rad);
+}
+
+.warp__11 {
+    transform-origin: 50% 43px;
+    transform: translate(435.2097px,108.39959999999999px) rotate(0.732856rad);
+}
+
+.warp__12 {
+    transform-origin: 50% 43px;
+    transform: translate(466.0813px,137.1384px) rotate(0.852092rad);
+}
